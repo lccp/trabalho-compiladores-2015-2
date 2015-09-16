@@ -1,0 +1,16 @@
+class Teste{
+	public static void main (String [] aa){
+		{
+			String t = "TesteLexicoValendo";
+			int [] vetor = new int [20];
+			if(((t.length) > 10) & ((vetor*3) < 8)){
+				while((t.length) > 5){
+					System.out.println("while");
+				}
+				System.out.println("if");
+				
+			}
+			
+		}
+	}
+}

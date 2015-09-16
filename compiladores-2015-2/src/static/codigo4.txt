@@ -1,0 +1,17 @@
+class TesteErrado{
+	public static void main(String [] aa){
+		{
+			int [] a;
+			String sobrenome = "";
+			//new int [10];
+			if(((sobrenome.length) > 10) & ((a*2) > 8)){
+				while((sobrenome.length) > 5){
+					System.out.println("while");
+				}
+				System.out.println("if");
+				2bab = "Teste";
+			}
+			
+		}
+	}
+}
