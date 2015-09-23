@@ -1,14 +1,13 @@
 class Teste{
 	public static void main (String [] aa){
 		{
-			String t = "TesteLexicoValendo";
-			int [] vetor = new int [20];
-			if(((t.length) > 10) & ((vetor*3) < 8)){
-				while((t.length) > 5){
-					System.out.println("while");
+			int [] a = new int [10];
+			if(((come.length) > 10) & ((a*2) > 8)){
+				while((come.length) > 5){
+					System.out.println("WHILE");
 				}
-				System.out.println("if");
-				
+				System.out.println("IF");
+				String come = "";
 			}
 			
 		}

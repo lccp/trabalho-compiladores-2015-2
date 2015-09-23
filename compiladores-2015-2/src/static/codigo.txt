@@ -1,13 +1,13 @@
-class Cliente{
+class Teste{
 	public static void main (String [] aa){
-		String nome = "Lucas";
-
-			if((nome.length) > 10){
-				System.out.println("ifnome");
+		{
+			if((come.length) > 10){
+				System.out.println("IF");
+				String come = "";
 			}
-			while((nome.length) > 5){
-				System.out.println("whilenome");
+			while((come.length) > 5){
+				System.out.println("WHILE");
 			}
-		
+		}
 	}
 }

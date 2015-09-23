@@ -24,9 +24,9 @@ public class AnalisadorLexico {
 
 	public static int line = 1;
 
-	// public AnalisadorLexico() {
-	// inicializar();
-	// }
+	 public AnalisadorLexico() {
+		 inicializarHashMaps();
+	 }
 
 	public static void inicializarHashMaps() {
 		// PALAVRAS RESERVADAS
@@ -47,6 +47,7 @@ public class AnalisadorLexico {
 		RESERVADO.put("false", true);
 		RESERVADO.put("System.out.println", true);
 		RESERVADO.put("length", true);
+		RESERVADO.put("input", true);
 
 		// OPERADORES
 		OPERADORES.put("!", true);
@@ -71,15 +72,16 @@ public class AnalisadorLexico {
 		OPERADORES.put(";", true);
 	}
 
-	public static void main(String[] args) {
-
-		imprimirTokens(gerarListaTokens());
-
-	}
+//	public static void main(String[] args) {
+//
+//		imprimirTokens(gerarListaTokens());
+//
+//	}
 
 	public static ArrayList<Token> gerarListaTokens() {
 
-		inicializarHashMaps(); // Inicialização de palavras reservadas e operadores.
+		inicializarHashMaps(); // Inicialização de palavras reservadas e
+								// operadores.
 
 		File file = carregarArquivo(); // Carregamento do arquivo.
 
@@ -257,6 +259,7 @@ public class AnalisadorLexico {
 	}
 
 	public static File carregarArquivo() {
+//		JFileChooser fileChooser = new JFileChooser();
 		JFileChooser fileChooser = new JFileChooser(
 				"D:\\LUCAS\\ESTUDOS\\trabalho-compiladores-2015-2\\compiladores-2015-2\\src\\static");
 		fileChooser.showOpenDialog(null);
