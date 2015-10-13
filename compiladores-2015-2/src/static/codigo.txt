@@ -1,5 +1,5 @@
 class Teste{
-	public static void main (String [] aa){
+	public static void main (String [] args){
 		{
 			if((come.length) > 10){
 				System.out.println("IF");

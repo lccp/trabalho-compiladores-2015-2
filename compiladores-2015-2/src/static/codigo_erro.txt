@@ -1,5 +1,5 @@
 class Teste3{
-	public static void main (String [] aa){
+	public static void main (String [] args){
 		{
 			String t = "TesteLexicoValendo";
 			int [] vetor = new int [20];

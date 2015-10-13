@@ -35,4 +35,3 @@ new
 /
 .
 length
-input

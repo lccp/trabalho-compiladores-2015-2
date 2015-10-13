@@ -259,9 +259,9 @@ public class AnalisadorLexico {
 	}
 
 	public static File carregarArquivo() {
-//		JFileChooser fileChooser = new JFileChooser();
-		JFileChooser fileChooser = new JFileChooser(
-				"D:\\LUCAS\\ESTUDOS\\trabalho-compiladores-2015-2\\compiladores-2015-2\\src\\static");
+		JFileChooser fileChooser = new JFileChooser();
+//		JFileChooser fileChooser = new JFileChooser(
+//				"D:\\LUCAS\\ESTUDOS\\trabalho-compiladores-2015-2\\compiladores-2015-2\\src\\static");
 		fileChooser.showOpenDialog(null);
 		return fileChooser.getSelectedFile();
 	}

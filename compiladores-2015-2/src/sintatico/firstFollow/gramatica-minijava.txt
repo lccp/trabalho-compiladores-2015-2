@@ -1,0 +1,8 @@
+MainClass ::= class, Identifier, {, public, static, void, main, (, String, [, ], Identifier, ), {, Statement, }, }
+VarDeclaration ::= Type, Identifier, Attribuition, ;
+Attribuition ::=  =, Factor | #
+Type ::= int, [, ] | boolean | int | String
+Statement ::= {, Statement, } | if,(,Factor,),Statement, ElseStmt | while, (, Factor, ), Statement | System.out.println, ( , Factor, ), ; | Identifier, =, Factor, ; | Identifier, [, IntegerLiteral, ], =, Factor, ; | VarDeclaration
+ElseStmt ::= else, Statement | #
+Factor ::= IntegerLiteral | StringLiteral | true | false | Identifier | new, int, [, Expression, ] | new, Identifier ,( ,) | !, Expression | (, Expression, )
+Expression ::= Factor ,& , Expression | Factor ,< , Expression | Factor ,> , Expression | Factor ,+ , Expression | Factor ,- , Expression | Factor ,* , Expression | Factor ,/ , Expression | Factor,[,Expression,] | Factor,.,length

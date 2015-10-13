@@ -1,0 +1,3 @@
+decl-seq ::= decl,decl-seq'
+decl-seq' ::= ;,decl-seq|#
+decl ::= s
